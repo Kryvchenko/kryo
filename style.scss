@@ -530,6 +530,9 @@ li {
            padding-right: 20px;
            padding-top: 20px;
            padding-bottom: 40px;
+           input, textarea {
+            padding-left: 10px;
+        }
        }
        
        .name {
@@ -594,6 +597,13 @@ li {
 // talblet sm
 
 @media (min-width: 768px) {
+    
+    
+    p,
+    li {
+        font-size: 14px;
+        line-height: 18px;
+    }
 
 
     .header {
@@ -1095,6 +1105,10 @@ li {
         padding-right: 20px;
         padding-top: 20px;
         padding-bottom: 40px;
+        input, textarea {
+            padding-left: 15px;
+        }
+
     }
     .p-form {
         padding-left: 120px;
@@ -1219,6 +1233,12 @@ li {
 //desktop 
 
 @media (min-width: 1440px) {
+
+    p,
+    li {
+        font-size: 16px;
+        line-height: 20px;
+    }
 
     //welcome section
 
