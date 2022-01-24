@@ -11,3 +11,9 @@ mobileMenu.addEventListener("click", function () {
         mainMenu.classList.remove("active-menu")
     }
 });
+
+$('.slider').slick({
+    dots: false,
+    autoplay: 1500,
+    arrows: false,
+  });
